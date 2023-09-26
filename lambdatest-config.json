@@ -1,0 +1,39 @@
+{
+   "lambdatest_auth": {
+      "username": "mohammadfaisalkhatri",
+      "access_key":"paQCrrPx5drtCfB9M7OZub2PVZICjPkld3ZxqlJQJfTMQBcRG1"
+   },
+   "browsers": [
+      {
+         "browser": "Chrome",
+         "platform": "macOS Ventura",
+         "versions": [
+            "latest-1"
+         ]
+      },
+      {
+         "browser": "MicrosoftEdge",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      }
+   ],
+   "run_settings": {
+      "reporter_config_file": "",
+      "build_name": "cypress-demo-run",
+      "parallels": 1,
+      "specs": "./cypress/e2e/*.cy.js",
+      "ignore_files": "",
+      "network": false,
+      "headless": false,
+      "npm_dependencies": {
+         "cypress": "13.2.0",
+         "@faker-js/faker": "^8.1.0"
+      }
+   },
+   "tunnel_settings": {
+      "tunnel": false,
+      "tunnel_name": null
+   }
+}

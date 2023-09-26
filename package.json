@@ -1,0 +1,25 @@
+{
+  "name": "cypress-lambdatest-demo",
+  "version": "1.0.0",
+  "description": "Demo project to run automation at scale on LambdaTest Cloud grid using cypress ",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:chrome": "cypress run --browser=chrome",
+    "cypress:edge": "cypress run --browser=edge"
+  },
+  "keywords": [
+    "cypress",
+    "test",
+    "automation",
+    "web",
+    "automation",
+    "testing"
+  ],
+  "author": "Faisal Khatri",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.1.0",
+    "cypress": "^13.2.0"
+  }
+}
