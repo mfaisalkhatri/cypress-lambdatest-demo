@@ -1,5 +1,6 @@
-/downloads
-/videos
-/node_modules
-/project.zip
-/DS_STORE
+downloads/
+videos/
+node_modules/
+project.zip/
+.DS_STORE
+.vscode
