@@ -1,7 +1,7 @@
 {
    "lambdatest_auth": {
-      "username": "mohammadfaisalkhatri",
-      "access_key":"paQCrrPx5drtCfB9M7OZub2PVZICjPkld3ZxqlJQJfTMQBcRG1"
+      "username": "LT_USERNAME",
+      "access_key": "LT_ACCESS_KEY"
    },
    "browsers": [
       {
@@ -22,7 +22,7 @@
    "run_settings": {
       "reporter_config_file": "",
       "build_name": "cypress-demo-run",
-      "parallels": 1,
+      "parallels": 2,
       "specs": "./cypress/e2e/*.cy.js",
       "ignore_files": "",
       "network": false,
