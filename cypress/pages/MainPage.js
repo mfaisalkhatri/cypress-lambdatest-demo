@@ -2,7 +2,7 @@ class MainPage {
 
   
   webElements = {
-    inputFormDemoLink: () => cy.get(":nth-child(18) > .text-black")
+    inputFormDemoLink: () => cy.get(":nth-child(20) > .text-black")
   };
 
   navigateToFormDemoPage() {
