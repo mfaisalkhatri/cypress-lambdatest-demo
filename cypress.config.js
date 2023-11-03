@@ -7,6 +7,7 @@ module.exports = {
 		viewportHeight: 768,
 		viewportWidth: 1024,
 		video: true,
-		experimentalSessionAndOrigin: false
+		experimentalSessionAndOrigin: false,
+		experimentalWebKitSupport: true
 	},
 };
